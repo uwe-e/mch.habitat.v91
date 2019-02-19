@@ -5,7 +5,7 @@
 @using Sitecore.Mvc.Analytics.Extensions
 @inherits WebViewPage
 @{
-  Layout = null;
+    Layout = null;
 }
 <!DOCTYPE html>
 <!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
@@ -13,35 +13,42 @@
 <html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
 <!--<![endif]-->
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  @if (!Sitecore.Context.PageMode.IsExperienceEditor)
-  {
-    @Html.Sitecore().Placeholder("head")
-  }
-  <!-- Latest compiled and minified JavaScript -->
-  @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
-  @RenderAssetsService.Current.RenderStyles()
-  @Html.Sitecore().VisitorIdentification()
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Html.Sitecore().Placeholder("head")
+    }
+    <!-- Latest compiled and minified JavaScript -->
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+    @RenderAssetsService.Current.RenderStyles()
+    @Html.Sitecore().VisitorIdentification()
+    <script type="text/javascript" src="/sitecore modules/Web/ExperienceForms/scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="/sitecore modules/Web/ExperienceForms/scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/sitecore modules/Web/ExperienceForms/scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="/sitecore modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript" src="/sitecore modules/Web/ExperienceForms/scripts/form.validate.js"></script>
+    <script type="text/javascript" src="/sitecore modules/Web/ExperienceForms/scripts/form.tracking.js"></script>
+    <script type="text/javascript" src="/sitecore modules/Web/ExperienceForms/scripts/form.conditions.js"></script>
 </head>
 <body class="header-static @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
-  <div id="main-container">
-    <header class="header-static">
-      @Html.Sitecore().Placeholder("header-top")
+    <div id="main-container">
+        <header class="header-static">
+            @Html.Sitecore().Placeholder("header-top")
 
-      @Html.Sitecore().Placeholder("navbar")
-    </header>
-    <main role="main">
-      @Html.Sitecore().Placeholder("page-layout")
-    </main>
-    <footer class="bg-dark">
-      @Html.Sitecore().Placeholder("footer")
-    </footer>
+            @Html.Sitecore().Placeholder("navbar")
+        </header>
+        <main role="main">
+            @Html.Sitecore().Placeholder("page-layout")
+        </main>
+        <footer class="bg-dark">
+            @Html.Sitecore().Placeholder("footer")
+        </footer>
 
-    @Html.Sitecore().Placeholder("page-sidebar")
-  </div>
-  @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
+        @Html.Sitecore().Placeholder("page-sidebar")
+    </div>
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
 </body>
 </html>
