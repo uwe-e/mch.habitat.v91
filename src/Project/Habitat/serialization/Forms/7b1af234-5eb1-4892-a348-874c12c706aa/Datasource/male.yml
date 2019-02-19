@@ -1,0 +1,29 @@
+﻿---
+ID: "654c40c0-67d3-4902-85b4-1d1f8b80ace4"
+Parent: "65f66e3a-3965-4d2a-9cb8-aa1216b5389b"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/Section/Section/contact-salutation/Settings/Datasource/male"
+DB: master
+SharedFields:
+- ID: "3a07c171-9bca-464d-8670-c5703c6d3f11"
+  Hint: Value
+  Value: male
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Herr
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190215T070636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
