@@ -1,0 +1,14 @@
+﻿---
+ID: "ecc47ad0-7f7a-4ff3-bdbb-d95d0bcf110f"
+Parent: "e92f51bb-da17-4f67-967f-338ffb625d9b"
+Template: "98e4bdc6-9b43-4eb2-baa3-d4303c35852e"
+Path: /sitecore/content/Ineltec/Global/Dictionary/Identity
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T232643Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "db10b44c-db27-4053-ac69-cc2140df061a"
+Parent: "68b55fc6-e94e-48bc-ad39-39d7c9a575b4"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Ineltec/Home/Modules/Feature/News/News/2015/08/24/17/57
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151210T043731Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "f28e96ed-6ccb-4b11-a733-ad3ece9616a8"
+Parent: "4ed23183-dac6-4dbc-854a-c814633ed9fa"
+Template: "f5f30cdc-9003-4015-84ec-c3a7e3e50d5e"
+Path: /sitecore/content/Ineltec/Global/Teasers/Teaser Page/Dynamic Teaser Content
+DB: master
+SharedFields:
+- ID: "9e942565-677f-491c-a0ac-6b930e37342a"
+  Hint: Active
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150903T121817Z

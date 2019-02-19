@@ -1,0 +1,18 @@
+﻿---
+ID: "3ea81c4a-5dff-4333-81fc-f136acc862de"
+Parent: "2a202107-af48-4a35-b4d4-22c28784a3db"
+Template: "41da2d61-d85a-40f1-be69-ddd18dd1bc93"
+Path: /sitecore/content/Ineltec/Global/FAQ
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160301T102648Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

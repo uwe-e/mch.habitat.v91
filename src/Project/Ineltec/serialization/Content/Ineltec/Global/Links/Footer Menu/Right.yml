@@ -1,0 +1,29 @@
+﻿---
+ID: "b2bff0a1-4071-4dc0-bf03-20cbf4ae8e8f"
+Parent: "ba1ac227-6beb-45c5-a68e-53bdb72cd60a"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
+Path: /sitecore/content/Ineltec/Global/Links/Footer Menu/Right
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150910T105359Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 右
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T054646Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

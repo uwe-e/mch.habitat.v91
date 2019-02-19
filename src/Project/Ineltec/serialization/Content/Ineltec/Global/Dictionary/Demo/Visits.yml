@@ -1,0 +1,14 @@
+﻿---
+ID: "fa8cb071-75f0-4655-b8f2-960ce4bc504c"
+Parent: "0bc14a76-6c30-4e77-96be-f033c62a5d0a"
+Template: "98e4bdc6-9b43-4eb2-baa3-d4303c35852e"
+Path: /sitecore/content/Ineltec/Global/Dictionary/Demo/Visits
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T232704Z

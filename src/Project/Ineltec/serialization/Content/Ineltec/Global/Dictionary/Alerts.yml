@@ -1,0 +1,14 @@
+﻿---
+ID: "a0f146a2-e682-498a-99a8-ea70faef9eb5"
+Parent: "e92f51bb-da17-4f67-967f-338ffb625d9b"
+Template: "98e4bdc6-9b43-4eb2-baa3-d4303c35852e"
+Path: /sitecore/content/Ineltec/Global/Dictionary/Alerts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T235534Z

@@ -1,0 +1,35 @@
+﻿---
+ID: "e0f9a372-72e1-4382-87f0-e4d4e0d3195b"
+Parent: "4ed23183-dac6-4dbc-854a-c814633ed9fa"
+Template: "061574e1-59dd-4b62-9680-1c84efbe6773"
+Path: /sitecore/content/Ineltec/Global/Teasers/Teaser Page/Headline Call to Action
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T005343Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Call to Action
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ヘッドライン Call to Action
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T054709Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Call to Action
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

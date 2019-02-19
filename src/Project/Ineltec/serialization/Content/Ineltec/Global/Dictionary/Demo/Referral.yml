@@ -1,0 +1,14 @@
+﻿---
+ID: "274ff114-6276-46da-86cf-1d1099c58912"
+Parent: "0bc14a76-6c30-4e77-96be-f033c62a5d0a"
+Template: "98e4bdc6-9b43-4eb2-baa3-d4303c35852e"
+Path: /sitecore/content/Ineltec/Global/Dictionary/Demo/Referral
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T232706Z

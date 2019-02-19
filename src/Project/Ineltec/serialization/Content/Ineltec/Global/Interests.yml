@@ -1,0 +1,14 @@
+﻿---
+ID: "b6b4cd9a-6330-4bf9-98b0-5015acab1b98"
+Parent: "2a202107-af48-4a35-b4d4-22c28784a3db"
+Template: "0db13819-7df3-4136-a4b9-0a22b1023ef7"
+Path: /sitecore/content/Ineltec/Global/Interests
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151112T140058Z
