@@ -20,6 +20,10 @@
             "Description": "The path to the Sitecore license file.",
             "DefaultValue": ".\\License.xml"
         },
+        "SiteRoot": {
+            "Type": "string",
+            "Description": "The path to the root directory of the website."
+        },
         "SiteName": {
             "Type": "string",
             "DefaultValue": "IdentityServer",
@@ -70,7 +74,7 @@
             "Reference": "SiteName",
             "Description": "The host name of the site."
         },
-        "DnsName" :{
+        "DnsName": {
             "Type": "string",
             "Reference": "SiteName",
             "Description": "The dns name of the site."

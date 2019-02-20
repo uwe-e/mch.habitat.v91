@@ -234,6 +234,23 @@
             "Reference": "IdentityServerPackage",
             "Description": "Override to pass IdentityServerPackage value to IdentityServer config."
         },
+
+        "SitecoreXP0:SiteRoot": {
+            "Type": "String",
+            "Reference": "SitecoreSiteRoot",
+            "Description": "The path to the root directory of the website."
+        },
+        "XConnectXP0:SiteRoot": {
+            "Type": "String",
+            "Reference": "SitecoreSiteRoot",
+            "Description": "The path to the root directory of the website."
+        },
+        "IdentityServer:SiteRoot": {
+            "Type": "String",
+            "Reference": "SitecoreSiteRoot",
+            "Description": "The path to the root directory of the website."
+        },
+
         "XConnectXP0:Sitename": {
             "Type": "String",
             "Reference": "XConnectSiteName",

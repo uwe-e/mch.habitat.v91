@@ -8,22 +8,26 @@
         "LicenseFile": {
             "Type": "string",
             "Description": "The path to the Sitecore license file.",
-            "DefaultValue" : ".\\License.xml"
+            "DefaultValue": ".\\License.xml"
         },
         "SqlDbPrefix": {
             "Type": "string",
             "Description": "The prefix used for all Sql databases.",
-            "DefaultValue" : ""
+            "DefaultValue": ""
         },
         "SolrCorePrefix": {
             "Type": "string",
             "Description": "The prefix used for all Solr cores.",
-            "DefaultValue" : ""
+            "DefaultValue": ""
         },
         "XConnectCert": {
             "Type": "string",
             "Description": "The certificate to use for encryption. Provide the name or the thumbprint.",
             "DefaultValue": ""
+        },
+        "SiteRoot": {
+            "Type": "string",
+            "Description": "The path to the root directory of the website."
         },
         "SiteName": {
             "Type": "string",
@@ -156,9 +160,9 @@
             "Description": "The Sql password for the EXM Master connection string in Sitecore."
         },
         "SqlMessagingUser": {
-          "Type": "string",
-          "DefaultValue": "messaginguser",
-          "Description": "The Sql user for the Messaging connection string in Sitecore."
+            "Type": "string",
+            "DefaultValue": "messaginguser",
+            "Description": "The Sql user for the Messaging connection string in Sitecore."
         },
         "SqlMessagingPassword": {
             "Type": "string",
@@ -171,9 +175,9 @@
             "Description": "The Sql Server where databases will be installed."
         },
         "ExmEdsProvider": {
-          "Type": "string",
-          "DefaultValue": "CustomSMTP",
-          "Description": "The default EDS provider to be used."
+            "Type": "string",
+            "DefaultValue": "CustomSMTP",
+            "Description": "The default EDS provider to be used."
         },
         "EXMCryptographicKey": {
             "Type": "string",
@@ -235,7 +239,7 @@
             "Reference": "SiteName",
             "Description": "The host mapping name of the site."
         },
-        "DnsName" :{
+        "DnsName": {
             "Type": "string",
             "Reference": "SiteName",
             "Description": "The dns name of the site."

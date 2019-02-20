@@ -3,12 +3,16 @@
         "Package": {
             "Type": "string",
             "Description": "The path to the Web Deploy package to deploy.",
-            "DefaultValue" : ""
+            "DefaultValue": ""
         },
         "LicenseFile": {
             "Type": "string",
             "Description": "The path to the Sitecore license file.",
-            "DefaultValue" : ".\\Licence.xml"
+            "DefaultValue": ".\\Licence.xml"
+        },
+        "SiteRoot": {
+            "Type": "string",
+            "Description": "The path to the root directory of the website."
         },
         "SiteName": {
             "Type": "string",
@@ -18,17 +22,17 @@
         "XConnectCert": {
             "Type": "string",
             "Description": "The certificate to use for encryption. Provide the name or the thumbprint.",
-            "DefaultValue" : ""
+            "DefaultValue": ""
         },
         "SqlDbPrefix": {
             "Type": "string",
             "Description": "The prefix used for all Sql databases.",
-            "DefaultValue" : ""
+            "DefaultValue": ""
         },
         "SolrCorePrefix": {
             "Type": "string",
             "Description": "The prefix used for all Solr cores.",
-            "DefaultValue" : ""
+            "DefaultValue": ""
         },
         "SSLCert": {
             "Type": "string",
@@ -170,7 +174,7 @@
             "Reference": "SiteName",
             "Description": "The host mapping name of the site."
         },
-        "DnsName" :{
+        "DnsName": {
             "Type": "string",
             "Reference": "SiteName",
             "Description": "The dns name of the site."

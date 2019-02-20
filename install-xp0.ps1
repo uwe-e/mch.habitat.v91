@@ -138,8 +138,8 @@ function Install-XP0SingleDeveloper {
         IdentityServerPackage = $IdentityServerPackage
         XConnectSiteName = $XConnectSiteName
         SitecoreSitename = $SitecoreSiteName
-        #SitecoreSiteRoot = $SitecoreSiteRoot
-        SiteRoot = $SitecoreSiteRoot
+        SitecoreSiteRoot = $SitecoreSiteRoot
+        #SiteRoot = $SitecoreSiteRoot
         PasswordRecoveryUrl = $SitecoreSiteUrl
         SitecoreIdentityAuthority = $IdentityServerUrl
         XConnectCollectionService = $XConnectSiteUrl
