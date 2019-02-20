@@ -132,6 +132,10 @@
     <Content Include="fonts\open-sans-v13-latin-800.svg" />
     <Content Include="fonts\open-sans-v13-latin-italic.svg" />
     <Content Include="fonts\open-sans-v13-latin-regular.svg" />
+    <Content Include="App_Config\Environment\Project\z.Rainbow.config" />
+    <Content Include="App_Config\Environment\Project\z.Sitecore.Analytics.Tracking.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="compilerconfig.json" />
     <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>

@@ -155,6 +155,25 @@ function Install-XP0SingleDeveloper {
         write-host "Sitecore XP0 Single Developer Install Failed" -ForegroundColor Red
         throw
     }
+    
+    #Set rights on the xDB connection database
+    Write-Host "Setting Collection User rights" -ForegroundColor Green
+    try
+    {
+        $sqlVariables = "DatabasePrefix = $SolutionPrefix", "UserName = $XConnectSqlCollectionUser", "Password = $XConnectSqlCollectionPassword"
+        Invoke-Sqlcmd -ServerInstance $SqlServer `
+                      -Username $SqlAdminUser `
+                      -Password $SqlAdminPassword `
+                      -InputFile "$PSScriptRoot\build\database\collectionusergrant.sql" `
+                      -Variable $sqlVariables
+    }
+    catch
+    {
+        write-host "Set Collection User rights failed" -ForegroundColor Red
+        throw
+    }
+    
+    
     finally {
         Pop-Location
     }

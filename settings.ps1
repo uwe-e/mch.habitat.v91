@@ -44,6 +44,9 @@ $XConnectSiteName = "${SolutionPrefix}_xconnect.$SitePostFix"
 $XConnectSiteUrl = "https://$XConnectSiteName"
 $XConnectSiteRoot = Join-Path $webroot -ChildPath $XConnectSiteName
 
+$XConnectSqlCollectionUser = "collectionuser"
+$XConnectSqlCollectionPassword = "test12345"
+
 # Identity Server Parameters
 $IdentityServerSiteName = "${SolutionPrefix}_IdentityServer.$SitePostFix"
 $IdentityServerUrl = "https://$IdentityServerName"
