@@ -2,7 +2,7 @@
 ID: "108e2185-2386-4fa0-967b-524ca9224ec6"
 Parent: "dfe2758a-27e3-42ae-89cb-c0b1888278b4"
 Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/Exhibitor Registration/Page/correspondence-section/Section/correspondence-adress"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/Section/correspondence-adress"
 DB: master
 SharedFields:
 - ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"

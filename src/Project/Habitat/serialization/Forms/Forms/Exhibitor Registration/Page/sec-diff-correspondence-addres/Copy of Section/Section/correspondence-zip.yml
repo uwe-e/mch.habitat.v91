@@ -2,7 +2,7 @@
 ID: "6ef3d83d-3e1a-481a-a799-ece587694fce"
 Parent: "ddc03fc2-73bf-4b55-bafc-1ab92b4ed544"
 Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/Exhibitor Registration/Page/correspondence-section/Copy of Section/Section/correspondence-zip"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/Copy of Section/Section/correspondence-zip"
 DB: master
 SharedFields:
 - ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"

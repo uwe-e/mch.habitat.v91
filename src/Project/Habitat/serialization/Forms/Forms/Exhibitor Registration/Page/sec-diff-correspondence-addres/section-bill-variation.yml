@@ -1,8 +1,8 @@
 ﻿---
-ID: "17c2868f-b3ab-4b4c-852f-74262211e890"
+ID: "df551ca9-c49e-4282-ad5d-93456651abc7"
 Parent: "4393c680-96ea-4df7-b735-966f7429ae83"
 Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/Exhibitor Registration/Page/correspondence-section/Copy of Section"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/section-bill-variation"
 DB: master
 SharedFields:
 - ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
@@ -17,10 +17,10 @@ SharedFields:
   Value: "form-group"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: B08E9F6DD0C64FF6ADF0FDF82D811035
+  Value: 0BB14E5933C64E6082113548C86EB715
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 600
 Languages:
 - Language: en
   Versions:
@@ -28,4 +28,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20190215T064512Z
+      Value: 20190220T131044Z

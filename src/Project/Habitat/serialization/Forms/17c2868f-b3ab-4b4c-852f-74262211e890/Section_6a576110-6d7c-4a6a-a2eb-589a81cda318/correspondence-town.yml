@@ -2,7 +2,7 @@
 ID: "4f11c211-f0bd-4d14-a597-5607c9e28d41"
 Parent: "6a576110-6d7c-4a6a-a2eb-589a81cda318"
 Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/Exhibitor Registration/Page/correspondence-section/Copy of Section/Section/correspondence-town"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/Copy of Section/Section/correspondence-town"
 DB: master
 SharedFields:
 - ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"

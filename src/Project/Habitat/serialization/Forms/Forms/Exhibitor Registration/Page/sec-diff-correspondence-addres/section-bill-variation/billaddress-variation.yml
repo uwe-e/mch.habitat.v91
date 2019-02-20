@@ -1,36 +1,37 @@
 ﻿---
-ID: "b850c25c-d6c3-4ed8-85f9-604b14a7818c"
-Parent: "299645fe-62e6-4c35-a3e0-44e8991ad056"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/Exhibitor Registration/Page/correspondence-section/Section/correspondence-first-name"
+ID: "f4209d79-260c-4dc9-afca-7b5fe91131e0"
+Parent: "df551ca9-c49e-4282-ad5d-93456651abc7"
+Template: "2f07293c-077f-456c-b715-fdb791acb367"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/section-bill-variation/billaddress-variation"
 DB: master
 SharedFields:
 - ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"
   Hint: Validations
   Type: Treelist
   Value: 
+- ID: "3c05a626-a3b1-4cbc-bf67-198537a13e20"
+  Hint: Default Value
+  Type: Checkbox
+  Value: 0
 - ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
   Hint: Label Css Class
   Value: 
 - ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
   Hint: Field Type
-  Value: "{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}"
+  Value: "{4DA85E8A-3B48-4BC6-9565-8C1F5F36DD1B}"
 - ID: "5d09f88a-0e2a-4f87-8151-af4a2aa26ec3"
   Hint: Value Provider
   Value: 
-- ID: "71061c01-a495-4bf3-a52c-d378346bfae2"
-  Hint: Max Length
-  Value: 255
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
   Hint: Conditions
   Value: |
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: "form-control"
+  Value: "form-check"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: AB856570CFC34A11957FD2971DB960E7
+  Value: E859FE798C354997B266A0DA8569E5E3
 - ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
   Hint: Required
   Type: Checkbox
@@ -39,9 +40,6 @@ SharedFields:
   Hint: Allow Save
   Type: Checkbox
   Value: 1
-- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
-  Hint: Min Length
-  Value: 0
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -59,17 +57,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20190215T081846Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\admin
+      Value: 20190220T130224Z
     - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
       Hint: Title
-      Value: Vorname
-    - ID: "a6972f08-cbb5-4830-a8c9-8a0ae34650d1"
-      Hint: Placeholder Text
-      Value: 
-    - ID: "b775bca9-2605-4d60-b367-a0c354be2504"
-      Hint: Default Value
-      Value: 
+      Value: Die Rechnungsadresse weicht von der Ausstelleradresse ab

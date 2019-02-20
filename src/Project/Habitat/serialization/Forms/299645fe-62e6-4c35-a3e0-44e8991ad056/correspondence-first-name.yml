@@ -1,8 +1,8 @@
 ﻿---
-ID: "1a92e8b2-6c10-4db7-a8f2-89b0bc94d048"
-Parent: "be60c76f-6d18-4775-8689-416e3860dd63"
+ID: "b850c25c-d6c3-4ed8-85f9-604b14a7818c"
+Parent: "299645fe-62e6-4c35-a3e0-44e8991ad056"
 Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
-Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/Section/correspondence-name"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/Section/correspondence-first-name"
 DB: master
 SharedFields:
 - ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"
@@ -30,7 +30,7 @@ SharedFields:
   Value: "form-control"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: E076D3985B0F4330A839947808CD8411
+  Value: AB856570CFC34A11957FD2971DB960E7
 - ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
   Hint: Required
   Type: Checkbox
@@ -66,7 +66,7 @@ Languages:
         sitecore\admin
     - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
       Hint: Title
-      Value: Name
+      Value: Vorname
     - ID: "a6972f08-cbb5-4830-a8c9-8a0ae34650d1"
       Hint: Placeholder Text
       Value: 

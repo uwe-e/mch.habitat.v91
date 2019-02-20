@@ -1,8 +1,8 @@
 ﻿---
-ID: "6a576110-6d7c-4a6a-a2eb-589a81cda318"
-Parent: "17c2868f-b3ab-4b4c-852f-74262211e890"
+ID: "be60c76f-6d18-4775-8689-416e3860dd63"
+Parent: "4393c680-96ea-4df7-b735-966f7429ae83"
 Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
-Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/Copy of Section/Section"
+Path: "/sitecore/Forms/Exhibitor Registration/Page/sec-diff-correspondence-address/Section"
 DB: master
 SharedFields:
 - ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
@@ -14,10 +14,10 @@ SharedFields:
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: "col-sm-8"
+  Value: "form-group"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: BAD92CB5751D4B21A93F14ABF7002766
+  Value: A10112D2695B4E229A2E7298F2814F3E
 Languages:
 - Language: en
   Versions:
@@ -25,4 +25,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20190215T064512Z
+      Value: 20190215T081846Z
