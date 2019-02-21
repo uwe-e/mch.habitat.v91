@@ -4,6 +4,26 @@ Parent: "0e3b72b9-2d7f-4835-b9d7-d1879f9e7091"
 Template: "94a8c8e9-690b-4e65-98e7-f95800222767"
 Path: /sitecore/content/Ineltec/Home/Modules/Feature/Forms
 DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="c4cc3ef6-a779-44ad-9021-01f1dae26270"
+        name="Layers">
+        <key
+          name="Feature"
+          value="10" />
+        <key
+          name="Foundation"
+          value="2" />
+        <key
+          name="Project"
+          value="0" />
+      </profile>
+    </tracking>
 Languages:
 - Language: en
   Versions:
@@ -21,7 +41,8 @@ Languages:
               uid="{B28079A4-5645-4432-8B8B-26F1DF893BE0}"
               p:before="*"
               s:ds="{5A0439D4-D74F-4CD7-A9AF-7A10435EC04B}"
-              s:id="{0C04C779-81F6-4AF4-9A19-85FEB206C5CA}"
+              s:id="{8115F1C3-642C-499D-B8AC-8CE220E34034}"
+              s:par=""
               s:ph="/page-layout/section-narrow/col-wide-1-{2F7D7625-07F2-4F33-A493-41B36A5BFE6E}-0" />
             <r
               uid="{2F7D7625-07F2-4F33-A493-41B36A5BFE6E}"

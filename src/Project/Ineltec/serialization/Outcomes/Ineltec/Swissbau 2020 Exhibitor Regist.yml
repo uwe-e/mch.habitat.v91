@@ -1,0 +1,33 @@
+﻿---
+ID: "ed4c75f6-ca12-4608-bb40-ff5108f66d84"
+Parent: "b2c57fec-835a-46fa-af46-899b883184fc"
+Template: "ee43c2f0-6277-4144-b144-8ca2cefccf12"
+Path: /sitecore/system/Marketing Control Panel/Outcomes/Ineltec/Swissbau 2020 Exhibitor Registration
+DB: master
+SharedFields:
+- ID: "33ae0e84-74a0-437f-ab2b-859dfa96f6c9"
+  Hint: Points
+  Value: 10
+- ID: "6ae27532-bac3-42c3-b91f-b4f1f20711c0"
+  Hint: Group
+  Value: "{605C0647-A77F-4BEB-AA92-00112AF582E7}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190221T100303Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "797466f5-763b-4299-b6ad-e4192bf21222"
+      Hint: Description
+      Value: When a contact registers for an exhibition
+    - ID: "ac6ba888-4213-43bd-b787-d8da2b6b881f"
+      Hint: Name
+      Value: Swissbau 2020 Exhibitor Registration
