@@ -1,22 +1,22 @@
 ﻿---
-ID: "2403d44d-a04e-4c4f-b00b-5ce8cf531254"
+ID: "4b01d959-22b5-4887-a3ed-41744e148fca"
 Parent: "64c4f646-a3fa-4205-b98e-4de2c609b60f"
 Template: "f68f13a6-3395-426a-b9a1-fa2dc60d94eb"
-Path: /sitecore/system/Languages/da
+Path: "/sitecore/system/Languages/de-CH"
 DB: master
 SharedFields:
 - ID: "0620f810-9294-4f14-af9f-f5772efca0b2"
   Hint: Regional Iso Code
-  Value: da
+  Value: "de-CH"
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Flags/32x32/flag_denmark.png
+  Value: Flags/32x32/flag_switzerland.png
 - ID: "49e5e8f3-ed4a-4a06-abe1-b9408951dee9"
   Hint: Charset
   Value: "iso-8859-1"
 - ID: "60669e54-7b9c-4b55-a0c4-8f25059d8b94"
   Hint: Dictionary
-  Value: "da-DK.tdf"
+  Value: "de-CH.tdf"
 - ID: "8728d8ff-66d9-40c2-8b34-c4fc1466942e"
   Hint: Encoding
   Value: "utf-8"
@@ -25,10 +25,10 @@ SharedFields:
   Value: 65001
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 50
 - ID: "c437e416-8948-427d-a982-8ed37ae3f553"
   Hint: Iso
-  Value: da
+  Value: de
 Languages:
 - Language: en
   Versions:
@@ -36,7 +36,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160105T101137Z
+      Value: 20190226T132714Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

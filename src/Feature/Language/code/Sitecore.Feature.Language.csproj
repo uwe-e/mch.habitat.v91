@@ -113,6 +113,7 @@
     <None Include="Properties\PublishProfiles\Standalone.pubxml" />
     <Content Include="Scripts\Language\language.js" />
     <Content Include="Views\Language\LanguageSelector.cshtml" />
+    <Content Include="Sitecore\Shell\Controls\Rich Text Editor\Dictionaries\de-CH.tdf" />
     <None Include="Views\web.config" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
@@ -136,6 +137,7 @@
       <Name>Sitecore.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
