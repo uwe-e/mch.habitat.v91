@@ -136,7 +136,9 @@
     <Content Include="App_Config\Environment\Project\z.Sitecore.Analytics.Tracking.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Config\Environment\Project\z.Sitecore.config" />
+    <Content Include="App_Config\Environment\Project\z.Sitecore.EDS.Providers.CustomSMTP.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="compilerconfig.json" />
     <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
