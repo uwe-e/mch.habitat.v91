@@ -1,32 +1,13 @@
 ﻿---
-ID: "4b5dbdb8-caf0-436d-afbe-f508f55d8cc9"
+ID: "df290ab2-52ec-4fc1-8829-367cf983cb6f"
 Parent: "0e3b72b9-2d7f-4835-b9d7-d1879f9e7091"
 Template: "94a8c8e9-690b-4e65-98e7-f95800222767"
-Path: /sitecore/content/Ineltec/Home/Modules/Feature/Forms
+Path: /sitecore/content/Ineltec/Home/Modules/Feature/Invitation Letter
 DB: master
 SharedFields:
-- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
-  Hint: __Tracking
-  Type: Tracking
-  Value: |
-    <tracking>
-      <profile
-        id="c4cc3ef6-a779-44ad-9021-01f1dae26270"
-        name="Layers">
-        <key
-          name="Feature"
-          value="10" />
-        <key
-          name="Foundation"
-          value="2" />
-        <key
-          name="Project"
-          value="0" />
-      </profile>
-    </tracking>
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -41,28 +22,30 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{B28079A4-5645-4432-8B8B-26F1DF893BE0}"
+              uid="{01846196-CEF4-40AA-B4E4-14D73D1A7819}"
               p:before="*"
-              s:ds="{5A0439D4-D74F-4CD7-A9AF-7A10435EC04B}"
+              s:ds="{124B0CB8-CC6B-4D11-A8BD-125BB9AB8207}"
               s:id="{8115F1C3-642C-499D-B8AC-8CE220E34034}"
-              s:par=""
-              s:ph="/page-layout/section-narrow/col-wide-1-{2F7D7625-07F2-4F33-A493-41B36A5BFE6E}-0" />
+              s:ph="/page-layout/section-narrow/col-wide-1-{178979B3-9359-468E-A87B-59E08D1085BD}-0" />
             <r
-              uid="{2F7D7625-07F2-4F33-A493-41B36A5BFE6E}"
-              p:after="r[@uid='{B28079A4-5645-4432-8B8B-26F1DF893BE0}']"
+              uid="{178979B3-9359-468E-A87B-59E08D1085BD}"
+              p:after="r[@uid='{01846196-CEF4-40AA-B4E4-14D73D1A7819}']"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section-narrow" />
           </d>
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
-      Value: Forms
+      Value: Invitation Letter
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20190214T131917Z
+      Value: 20190226T071510Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: The Baselworld Visitor Service assists show visitors in obtaining a visa by providing a written letter of invitation (this does not count as an admission ticket)
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Swissbau 2020  Anmeldung
+      Value: Invitation Letter
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
-      Value: Forms
+      Value: Invitation Letter
