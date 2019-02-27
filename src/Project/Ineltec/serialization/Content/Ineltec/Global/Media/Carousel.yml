@@ -24,6 +24,25 @@ Languages:
         {EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}
         {69CF65FB-F46E-4038-BBFB-66695B9178E4}
         {12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190227T072242Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {778417D6-AA3A-471C-A803-82497AB7928F}
+        {18D7F0E1-AB01-4AB4-B764-526BBCA15E44}
+        {FA389BB2-6DF7-48CD-88DD-5C8A2E2B1770}
+        {AE96C5FA-F262-4BDC-ACC5-C6B160922F95}
 - Language: en
   Versions:
   - Version: 1
