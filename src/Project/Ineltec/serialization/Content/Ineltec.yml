@@ -21,8 +21,6 @@ SharedFields:
   Value: |
     {AF584191-45C9-4201-8740-5409F4CF8BDD}
     {4B01D959-22B5-4887-A3ED-41744E148FCA}
-    {DCACA62F-1FD9-4B2D-AC1F-4EAA58D317B2}
-    {2403D44D-A04E-4C4F-B00B-5CE8CF531254}
 - ID: "60745023-ffd5-400e-8f80-4bca9f2abb29"
   Hint: Login Page
   Value: /sitecore/content/Ineltec/Home/Login
@@ -131,7 +129,7 @@ Languages:
     Value: "{C4CC3EF6-A779-44AD-9021-01F1DAE26270}"
   - ID: "53b5af0a-265f-4e60-b2b2-4576ce0beccf"
     Hint: Theme
-    Value: "{9025588B-C765-458B-829C-1886A98AD3A7}"
+    Value: "{29A0C126-B131-46E5-A470-6E8FEDC92069}"
   Versions:
   - Version: 1
     Fields:
