@@ -153,6 +153,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{4B8BD204-FCED-4A4C-BD57-42B09B98745E}"
 	ProjectSection(SolutionItems) = preProject
 		install-xp0.ps1 = install-xp0.ps1
+		install-solr.ps1 = install-solr.ps1
 		settings.ps1 = settings.ps1
 		uninstall-xp0.ps1 = uninstall-xp0.ps1
 	EndProjectSection
