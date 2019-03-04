@@ -26,10 +26,75 @@ Languages:
               p:before="*"
               s:ds="{124B0CB8-CC6B-4D11-A8BD-125BB9AB8207}"
               s:id="{8115F1C3-642C-499D-B8AC-8CE220E34034}"
-              s:ph="/page-layout/section-narrow/col-wide-1-{178979B3-9359-468E-A87B-59E08D1085BD}-0" />
+              s:ph="/page-layout/section-narrow/col-wide-1-{178979B3-9359-468E-A87B-59E08D1085BD}-0">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{7C61099B-4905-4323-8A41-656DF7111F90}"
+                    s:name="Letter Registered">
+                    <actions>
+                      <action
+                        uid="CC7968F5E7304FFBA57657C7254D3ABF"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                    <conditions>
+                      <condition
+                        uid="0994774E1A0741ABA8625BC79B82E159"
+                        s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
+                        s:GoalId="{A5C85A10-DD50-4998-9484-06F162A3AB54}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="7A9841B9CC2E4E38B24F29B28768AF13"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{747C8042-4E72-474B-AC7B-3122260E0FC3}"
+              p:after="r[@uid='{01846196-CEF4-40AA-B4E4-14D73D1A7819}']"
+              s:ds="{083DEE1E-1157-4187-9793-2E1D76918942}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section-narrow/col-wide-1-{178979B3-9359-468E-A87B-59E08D1085BD}-0">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{D1047197-DD53-4101-BFD6-D9896F9676AE}"
+                    s:name="Letter Registered">
+                    <conditions>
+                      <condition
+                        uid="E2834BF1DEA54B9A92F24773C84205AC"
+                        s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
+                        s:GoalId="{A5C85A10-DD50-4998-9484-06F162A3AB54}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="2DB79199F5044175BF8E1D4D29AA8543"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="1643AC130ABE4F549921C61E30C1CEA2"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{178979B3-9359-468E-A87B-59E08D1085BD}"
-              p:after="r[@uid='{01846196-CEF4-40AA-B4E4-14D73D1A7819}']"
+              p:after="r[@uid='{747C8042-4E72-474B-AC7B-3122260E0FC3}']"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section-narrow" />
           </d>
@@ -50,7 +115,7 @@ Languages:
         <image mediaid="{1A55FB5A-8580-4F60-82CE-DAAC3820499C}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: "Der Baselworld Visitor Service unterst&uuml;tzt Messeg&auml;ste bei Visa-Verfahren mit der Ausstellung einer schriftlichen Einladung (Invitation Letter, gilt nicht als Eintrittskarte). Bitte benutzen Sie dazu das hier verlinkte Antragsformular (nur in Englisch verf&uuml;gbar!! so'n Quatsch, wir sind doch Sitecore)."
+      Value: "Der Baselworld Visitor Service unterstützt Messegäste bei Visa-Verfahren mit der Ausstellung einer schriftlichen Einladung (Invitation Letter, gilt nicht als Eintrittskarte). Bitte benutzen Sie dazu das hier verlinkte Antragsformular (nur in Englisch verfügbar!! so'n Quatsch, wir sind doch Sitecore)."
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Einladungsschreiben
@@ -71,10 +136,75 @@ Languages:
               p:before="*"
               s:ds="{124B0CB8-CC6B-4D11-A8BD-125BB9AB8207}"
               s:id="{8115F1C3-642C-499D-B8AC-8CE220E34034}"
-              s:ph="/page-layout/section-narrow/col-wide-1-{178979B3-9359-468E-A87B-59E08D1085BD}-0" />
+              s:ph="/page-layout/section-narrow/col-wide-1-{178979B3-9359-468E-A87B-59E08D1085BD}-0">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{5F6B9E55-7E8A-48A5-BB6E-27DE4E946995}"
+                    s:name="Letter Registered">
+                    <conditions>
+                      <condition
+                        uid="D0FC1D346F854B80A1F46E7A4041C1EF"
+                        s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
+                        s:GoalId="{A5C85A10-DD50-4998-9484-06F162A3AB54}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="87EC03A31D954B6F82FD9E348C2068AB"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="5235EC061387425E8F6C8CDEA545BDE3"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{C1A37BFB-8176-47ED-A77F-EFF3BC604E36}"
+              p:after="r[@uid='{01846196-CEF4-40AA-B4E4-14D73D1A7819}']"
+              s:ds="{083DEE1E-1157-4187-9793-2E1D76918942}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section-narrow/col-wide-1-{178979B3-9359-468E-A87B-59E08D1085BD}-0">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{F229625D-3085-4105-8DD4-2E491AAF70D9}"
+                    s:name="Letter Registered">
+                    <conditions>
+                      <condition
+                        uid="3E51FF6CC11649158DD867569151AAFD"
+                        s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
+                        s:GoalId="{A5C85A10-DD50-4998-9484-06F162A3AB54}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="BF526F94AAF84D3AABE4AAB0007C995B"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="3BA6761DC80F44D4BC1F21A8A340154A"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{178979B3-9359-468E-A87B-59E08D1085BD}"
-              p:after="r[@uid='{01846196-CEF4-40AA-B4E4-14D73D1A7819}']"
+              p:after="r[@uid='{C1A37BFB-8176-47ED-A77F-EFF3BC604E36}']"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section-narrow" />
           </d>

@@ -1,0 +1,61 @@
+﻿---
+ID: "083dee1e-1157-4187-9793-2e1d76918942"
+Parent: "791b6bf8-df38-46d4-8195-7f40a0f9bc95"
+Template: "755f1188-d385-4717-8681-ef45f2258575"
+Path: /sitecore/content/Ineltec/Home/Modules/Feature/Invitation Letter/_Local/Thanks
+DB: master
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0de53078-0da4-40cc-bbca-63aa96a0a1ef"
+      Hint: Quote
+      Value: |
+        Vielen besten Dank für Ihre Anfrage.
+        In den kommenden Tagen werden Sie von uns eine entsprechende Einladung erhalten.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190228T090323Z
+    - ID: "26cd59ab-3639-488f-bafd-58d2b217755a"
+      Hint: Name
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
+      Hint: Title
+      Value: Danke
+    - ID: "b897023c-15d2-49f3-8974-06fa5fb7ad00"
+      Hint: Summary
+      Value: |
+        Vielen besten Dank für Ihre Anfrage.
+        In den kommenden Tagen werden Sie von uns eine entsprechende Einladung erhalten.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0de53078-0da4-40cc-bbca-63aa96a0a1ef"
+      Hint: Quote
+      Value: |
+        We thank you for your request.
+        Within the next few days you will receive your invitation letter.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190228T085836Z
+    - ID: "26cd59ab-3639-488f-bafd-58d2b217755a"
+      Hint: Name
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
+      Hint: Title
+      Value: Thanks
+    - ID: "b897023c-15d2-49f3-8974-06fa5fb7ad00"
+      Hint: Summary
+      Value: |
+        We thank you for your request.
+        Within the next few days you will receive your invitation letter.
