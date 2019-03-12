@@ -16,13 +16,13 @@ This project assumes the following settings:
 
 | Setting             |  Value                                                                     | Change in <sup>1 *see below*</sup> |
 | ---                 | ---                                                                        | --- |
-| Source location     | C:\projects\Habitat\                                                       | `Habitat.Dev.config` |
-| Website location    | C:\inetpub\wwwroot\habitat.dev.local\                                      | `gulp-config.js`, `settings.ps1`, `xconnect-XP0.json`, `sitecore-XP0.json` |
-| Website URL         | [https://habitat.dev.local/](https://habitat.dev.local/)                   | `publishsettings.targets`, `settings.ps1`, `Habitat.Website.config` |
+| Source location     | D:\Work\MCH.CMS.Habitat\mch.habitat.v91\                                   | `Habitat.Dev.config` |
+| Website location    | D:\Work\Sitecore\mch.habitat.v91.dev.local\                                | `gulp-config.js`, `settings.ps1`, `xconnect-XP0.json`, `sitecore-XP0.json` |
+| Website URL         | [http://mch.habitat.v91.dev.local/](http://mch.habitat.v91.dev.local/)     | `publishsettings.targets`, `settings.ps1`, `Habitat.Website.config` |
 | SQL Server          | .                                                                          | `settings.ps1` |
 | SQL Server Admin    | sa                                                                         | `settings.ps1` |
 | SQL Server Password | 12345                                                                      | `settings.ps1` |
-| SOLR Location       | c:\solr\                                                                   | `settings.ps1` |
+| SOLR Location       | d:\solr\                                                                   | `settings.ps1` |
 | SOLR URL            | [https://localhost:8983/solr](https://localhost:8983/solr) (*Note https*)  | `settings.ps1` |
 | SOLR Windows Service Name   | Solr                                                               | `settings.ps1` |
 
@@ -65,7 +65,7 @@ If your Solr environment is not currently running with HTTPS, you can create an 
 
 ### 1. Installing Sitecore
 
-1. **Clone** the [Habitat repository](https://github.com/Sitecore/Habitat/) to your local file system.
+1. **Clone** the [Habitat repository](https://github.com/uwe-e/mch.habitat.v91/) to your local file system.
 1. Download the correct version of Sitecore from [dev.sitecore.net](https://dev.sitecore.net/Downloads.aspx) and place it in the `.\build\assets` folder.
     * Habitat will install by default on an *Sitecore XP Single*, i.e. a standalone version of Sitecore CMS including xConnect.
     * The currently supported version is defined in the `.\settings.ps1` file
