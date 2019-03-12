@@ -112,7 +112,7 @@ If your Solr environment is not currently running with HTTPS, you can create an 
 1. [Rebuild](https://doc.sitecore.net/sitecore_experience_platform/setting_up_and_maintaining/search_and_indexing/indexing/rebuild_search_indexes) the *sitecore_master_index* and *sitecore_web_index* to deploy the updated schema to Solr and index the deployed content.
     * This is required for Habitat search-based features to work properly.
 ## Additional packages to install
-This habitat project contains several attempts with DEF and Forms. For that to work you should install the packages
+This habitat project contains various attempts with the Sitecore Data Exchange Framework and Sitecore Forms. For that to work you should install the packages
 
    * Bart Verdonck's [Sitecore Forms Extensions](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads/Sitecore%209.1)
 
