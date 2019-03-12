@@ -1,0 +1,105 @@
+﻿---
+ID: "b2c1acb4-06ad-472f-84ec-264413e3385f"
+Parent: "1b9684cf-6198-4f34-8d9e-2fcb60f000dd"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Renderings/Composites/MCHContentManager
+DB: core
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /sitecore/shell/client/Applications/FormsBuilder/Layouts/Renderings/Composites/MCHContentManager/MCHContentManager.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{14EEB02C-54C1-4BC1-B6B2-1EE983090042}"
+- ID: "ddab263e-b42e-419a-aa6f-081b7393ca38"
+  Hint: Model
+  Value: Sitecore.Speak.Components.Models.CompositeComponentRenderingModel,Sitecore.Speak.Components
+- ID: "ef7c5528-7307-4e19-863b-da19eed6a9ed"
+  Hint: Open Properties after Add
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{C0AF6F28-2FF1-455B-B4DB-91A9FC5A8699}"
+          par="LabelForSelectDataSource=%7bBinding+%24component.DynamicLabelForSelectDatasource%7d&amp;LabelForSelection=%7bBinding+%24component.DynamicLabelForSelection%7d&amp;LabelForTextField=%7bBinding+%24component.DynamicLabelForTextField%7d&amp;LabelForValueField=%7bBinding+%24component.DynamicLabelForValueField%7d&amp;LabelForValueNotInList=%7bBinding+%24component.DynamicLabelForValueNotInList%7d&amp;IsEnabled=1&amp;IsVisible=1&amp;Id=DynamicDatasource"
+          ph=""
+          uid="{3B8AB332-3AAF-4C83-A4EE-E45B174C4243}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DatakildeManager
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100351Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DatenquelleManager
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100654Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170217T102701Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: データソース マネージャー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100935Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 数据源管理器
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101221Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,136 @@
+﻿---
+ID: "077d0e51-696f-436c-bb8c-ab1aa2755a08"
+Parent: "4dc14a87-6184-41da-b2c6-e6f2ee57810e"
+Template: "fc38d21e-5253-4ef9-a2f4-7f6c937ed766"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MCHCountries/ListItems/MCHContentManager
+DB: core
+SharedFields:
+- ID: "0b6b2d34-5308-4aa8-b59d-85ba47e8b8aa"
+  Hint: ValueFieldName
+  Value: itemId
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: isDynamic=isDynamic&dataSource=CompDatasourceGuid&displayFieldName=CompDisplayFieldName&valueFieldName=CompValueFieldName&items=CompItems
+- ID: "ae95c662-af6a-4156-862d-82924ab52c42"
+  Hint: DisplayFieldName
+  Value: text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c5217339-80d0-4725-9340-574eed8e9082"
+  Hint: RenderingItemId
+  Value: "{B2C1ACB4-06AD-472F-84EC-264413E3385F}"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DatakildeManager
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100349Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: DatenquelleManager
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100652Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d5a8793-dc3b-4ed4-86d8-5dcc2e0bfc9d"
+      Hint: StaticLabelForEditComponent
+      Value: Drop list item
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170221T114519Z
+    - ID: "3dec59b3-d4e5-419e-84a9-ad744bf7d6f5"
+      Hint: DynamicLabelForButton
+      Value: ...
+    - ID: "462f39f0-fb58-4142-9032-04dc21f234e6"
+      Hint: StaticWatermarkForValues
+      Value: 
+    - ID: "5915a7e0-59e6-4e91-8f3f-30a1db6bc24d"
+      Hint: StaticWatermarkForLabels
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5fe0c586-a2b2-4e73-9f36-9cc0ef16b64a"
+      Hint: DynamicLabelForSelection
+      Value: Default chosen list item
+    - ID: "6f50231e-a3ff-4c2c-9aeb-61888771c9c3"
+      Hint: DynamicLabelForSelectDatasource
+      Value: Select datasource
+    - ID: "780ea676-c5c5-47f3-9623-d7857ec23dd4"
+      Hint: StaticLabelForValue
+      Value: Value
+    - ID: "7f7406d5-08e0-4e3f-b849-36d32a09d9d5"
+      Hint: DynamicLabelForTextField
+      Value: Text field
+    - ID: "90b917c7-0489-4f4b-a77e-55a5ce0f00bf"
+      Hint: StaticLabelForValueModeDropDown
+      Value: Drop list item values
+    - ID: "969177f2-0ddb-4ef5-8a39-4b5bfa357659"
+      Hint: StaticLabelForSelection
+      Value: 
+    - ID: "9b1c4fd8-6427-4f15-bd4b-2773f74876e3"
+      Hint: StaticLabelForAddNew
+      Value: Add new
+    - ID: "b0c4b0b5-d47a-4297-b799-3b04d773d77e"
+      Hint: StaticLabelForKey
+      Value: label
+    - ID: "b2ea7eed-367c-4d00-90ce-fb04ff125d72"
+      Hint: DynamicLabelForValueField
+      Value: Value field
+    - ID: "f86f58ce-6bef-416c-a81c-f7d741738b06"
+      Hint: DynamicLabelForValueNotInList
+      Value: value not in the selection list
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: データソース マネージャー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100933Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 数据源管理器
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101219Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

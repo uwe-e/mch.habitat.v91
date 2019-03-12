@@ -85,18 +85,32 @@
           <HintPath>$(SitecorePath)\bin\Sitecore.Kernel.dll</HintPath>
           <Private>False</Private>
         </Reference>
+        <Reference Include="Sitecore.Speak.Client">
+          <HintPath>$(SitecorePath)\bin\Sitecore.Speak.Client.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Client">
+          <HintPath>$(SitecorePath)\bin\Sitecore.Speak.Components.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </When>
     <Otherwise>
       <ItemGroup>
         <PackageReference Include="Sitecore.Kernel" Version="[12.0.0]" />
+        <PackageReference Include="Sitecore.Speak.Client" Version="[4.0.0]" />
+        <PackageReference Include="Sitecore.Speak.Components" Version="[4.0.0]" />
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Content Include="App_Config\include\Forms\Feature.Forms.Serialization.config">
+    <Content Include="App_Config\include\Feature\Feature.Forms.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Sitecore\Shell\Client\Applications\FormsBuilder\Layouts\Renderings\Composites\MCHContentManager\MCHContentManager.css" />
+    <Content Include="Sitecore\Shell\Client\Applications\FormsBuilder\Layouts\Renderings\Composites\MCHContentManager\MCHContentManager.js" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="Sitecore\Shell\Client\Applications\FormsBuilder\Layouts\Renderings\Composites\MCHContentManager\MCHContentManager.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
