@@ -113,16 +113,14 @@ If your Solr environment is not currently running with HTTPS, you can create an 
     * This is required for Habitat search-based features to work properly.
 ## Additional packages to install
 This habitat project contains several attempts with DEF and Forms. For that to work you should install the packages
-
     * Bart Verdonck's [Sitecore Forms Extensions](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads/Sitecore%209.1)
-    
-    and
-    
+
+and
     * Data Exchange Framework
     * Sitecore Provider for Data Exchange Framework
-    * SQL Provider for Data Exchange Framework from
+    * SQL Provider for Data Exchange Framework
     
-    from [Sitecore](https://dev.sitecore.net/Downloads/Data_Exchange_Framework/2x/Data_Exchange_Framework_210.aspx)
+from [Sitecore](https://dev.sitecore.net/Downloads/Data_Exchange_Framework/2x/Data_Exchange_Framework_210.aspx)
 
 ## Additional Information
 
