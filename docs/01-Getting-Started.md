@@ -71,19 +71,21 @@ If your Solr environment is not currently running with HTTPS, you can create an 
     * The currently supported version is defined in the `.\settings.ps1` file
     * The installation requires the following files:
         * Sitecore package: `.\build\assets\Sitecore X.X.X rev. XXXXXX (OnPrem)_single.scwdp.zip`
-        * Sitecore configuration: `.\build\assets\sitecore-XP0.json`
-        * Sitecore SOLR configuration: `.\build\assets\sitecore-solr.json`
         * xConnect package: `.\build\assets\Sitecore X.X.X rev. XXXXXX (OnPrem)_xp0xconnect.scwdp.zip`
-        * xConnect configuration: `.\build\assets\xconnect-XP0.json`
-        * xConnect SOLR configuration: `.\build\assets\xconnect-solr.json`
         * Identity Server package: `.\build\assets\Sitecore.IdentityServer X.X.X rev. XXXXXX (OnPrem)_identityserver.scwdp.zip`
-        * Identity Server configuration: `.\build\assets\IdentityServer.json`
-        * Certificate configuration: `.\build\assets\createcert.json`
-        * Prerequisites configuration: `.\build\assets\Prerequisites.json`
-        * Single Developer configuration: `.\build\assets\XP0-SingleDeveloper.json`
         * Sitecore license: `.\build\assets\license.xml`
-1. Are you using system settings other than the defaults specified at the top of this page?
-    * If yes, you need to update the files accordingly.
+    * The partly adapted json files
+        * sitecore-XP0.json
+        * sitecore-solr.json
+        * xconnect-XP0.json
+        * xconnect-solr.json
+        * IdentityServer.json
+        * createcert.json
+        * Prerequisites.json
+        * XP0-SingleDeveloper.json
+      are stored in directory `.\build\AssetConfiguration`and have to copied into the `.\build\assets` directory. 
+        
+1. Are you using system settings other than the defaults specified at the top of this page?` directory.If yes, you need to update the files accordingly.
     * **Include or omit trailing slashes as per the default setting in each file!**
 1. Open an elevated privileges PowerShell command prompt (started with **Run as administrator**)
 1. Run **`.\install-xp0.ps1`**
