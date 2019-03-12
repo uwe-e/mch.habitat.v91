@@ -83,6 +83,7 @@ If your Solr environment is not currently running with HTTPS, you can create an 
         * createcert.json
         * Prerequisites.json
         * XP0-SingleDeveloper.json
+      
       are stored in directory `.\build\AssetConfiguration`and have to copied into the `.\build\assets` directory. 
         
 1. Are you using system settings other than the defaults specified at the top of this page?` directory.If yes, you need to update the files accordingly.
