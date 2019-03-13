@@ -10,10 +10,10 @@ SharedFields:
   Value: Office/32x32/drop_down_list.png
 - ID: "12594037-53e5-44c0-ad63-deb52dead374"
   Hint: View Path
-  Value: FieldTemplates/DropDownList
+  Value: FieldTemplates/MCHContent
 - ID: "16882a65-d10b-4e9e-9d6a-b13480a34f2d"
   Hint: Model Type
-  Value: Sitecore.ExperienceForms.Mvc.Models.Fields.DropDownListViewModel,Sitecore.ExperienceForms.Mvc
+  Value: MCH.Feature.Forms.Models.Fields.MCHContentViewModel,MCH.Feature.Forms
 - ID: "73f3c325-9b2a-4854-b698-038e06887fcd"
   Hint: Property Editor
   Value: "{D1551774-4CAE-4912-A0FD-D445B2DEEE3F}"

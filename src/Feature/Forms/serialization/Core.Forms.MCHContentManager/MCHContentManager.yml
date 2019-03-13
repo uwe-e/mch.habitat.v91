@@ -10,7 +10,7 @@ SharedFields:
   Value: /sitecore/shell/client/Applications/FormsBuilder/Layouts/Renderings/Composites/MCHContentManager/MCHContentManager.cshtml
 - ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
   Hint: Parameters Template
-  Value: "{14EEB02C-54C1-4BC1-B6B2-1EE983090042}"
+  Value: "{583AEC15-FE6C-44F4-A33F-DA6BC637D5CA}"
 - ID: "ddab263e-b42e-419a-aa6f-081b7393ca38"
   Hint: Model
   Value: Sitecore.Speak.Components.Models.CompositeComponentRenderingModel,Sitecore.Speak.Components
@@ -26,7 +26,7 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           id="{C0AF6F28-2FF1-455B-B4DB-91A9FC5A8699}"
-          par="LabelForSelectDataSource=%7bBinding+%24component.DynamicLabelForSelectDatasource%7d&amp;LabelForSelection=%7bBinding+%24component.DynamicLabelForSelection%7d&amp;LabelForTextField=%7bBinding+%24component.DynamicLabelForTextField%7d&amp;LabelForValueField=%7bBinding+%24component.DynamicLabelForValueField%7d&amp;LabelForValueNotInList=%7bBinding+%24component.DynamicLabelForValueNotInList%7d&amp;IsEnabled=1&amp;IsVisible=1&amp;Id=DynamicDatasource"
+          par="LabelForSelectDataSource=%7bBinding+%24component.DynamicLabelForSelectDatasource%7d&amp;LabelForSelection=%7bBinding+%24component.DynamicLabelForSelection%7d&amp;LabelForTextField=%7bBinding+%24component.DynamicLabelForTextField%7d&amp;LabelForValueField=%7bBinding+%24component.DynamicLabelForValueField%7d&amp;LabelForValueNotInList=%7bBinding+%24component.DynamicLabelForValueNotInList%7d&amp;IsEnabled=1&amp;IsVisible=1&amp;Id=DynamicDatasource&amp;ValueFieldName=%7bBinding+%24component.ValueFieldName%7d"
           ph=""
           uid="{3B8AB332-3AAF-4C83-A4EE-E45B174C4243}" />
       </d>

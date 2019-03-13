@@ -1,3 +1,8 @@
-﻿.sc-mchcontentmanager .sc-dynamicdatasource > div:first-child {
+﻿.sc-mchcontentmanager .sc-dynamicdatasource > div {
     display: none;
+}
+
+
+.sc-mchcontentmanager .sc-dynamicdatasource > div:last-child {
+    display: block;
 }

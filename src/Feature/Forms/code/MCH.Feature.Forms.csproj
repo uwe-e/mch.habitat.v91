@@ -85,6 +85,10 @@
           <HintPath>$(SitecorePath)\bin\Sitecore.Kernel.dll</HintPath>
           <Private>False</Private>
         </Reference>
+        <Reference Include="Sitecore.Mvc">
+          <HintPath>$(SitecorePath)\bin\Sitecore.Mvc.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
         <Reference Include="Sitecore.Speak.Client">
           <HintPath>$(SitecorePath)\bin\Sitecore.Speak.Client.dll</HintPath>
           <Private>False</Private>
@@ -93,13 +97,19 @@
           <HintPath>$(SitecorePath)\bin\Sitecore.Speak.Components.dll</HintPath>
           <Private>False</Private>
         </Reference>
+        <Reference Include="Sitecore.ExperienceForms.Mvc">
+          <HintPath>$(SitecorePath)\bin\Sitecore.ExperienceForms.Mvc.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </When>
     <Otherwise>
       <ItemGroup>
         <PackageReference Include="Sitecore.Kernel" Version="[12.0.0]" />
+        <PackageReference Include="Sitecore.Mvc" Version="[3.0.0]" />
         <PackageReference Include="Sitecore.Speak.Client" Version="[4.0.0]" />
         <PackageReference Include="Sitecore.Speak.Components" Version="[4.0.0]" />
+        <PackageReference Include="Sitecore.ExperienceForms.Mvc" Version="[2.0.0]" />
       </ItemGroup>
     </Otherwise>
   </Choose>
@@ -111,10 +121,13 @@
     <Content Include="Sitecore\Shell\Client\Applications\FormsBuilder\Layouts\Renderings\Composites\MCHContentManager\MCHContentManager.js" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Sitecore\Shell\Client\Applications\FormsBuilder\Layouts\Renderings\Composites\MCHContentManager\MCHContentManager.cshtml" />
+    <Content Include="Views\FormBuilder\FieldTemplates\MCHContent.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Fields\MCHContentViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
@@ -127,7 +140,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

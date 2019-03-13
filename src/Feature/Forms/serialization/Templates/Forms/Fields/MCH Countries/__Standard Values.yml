@@ -5,6 +5,9 @@ Template: "488e6cf0-51a6-485f-b41b-24c785ef6eb0"
 Path: /sitecore/templates/Feature/Forms/Fields/MCH Countries/__Standard Values
 DB: master
 SharedFields:
+- ID: "492361e0-72d8-4847-82ba-ebfc235cf57b"
+  Hint: Display Field Name
+  Value: Country Name
 - ID: "54424e06-0e7a-47a7-8cb2-7383d700472f"
   Hint: Is Dynamic
   Type: Checkbox
@@ -12,6 +15,9 @@ SharedFields:
 - ID: "5be76442-950f-4c1f-a797-bebd71101abb"
   Hint: Datasource
   Value: "{E4328CB6-497A-4E76-AB21-3F943677227D}"
+- ID: "78778432-6327-4cea-a28b-e190e3541d28"
+  Hint: Value Field Name
+  Value: ISO Code
 - ID: "8dc6e4b4-3a7d-4c8e-8de0-b04246ab57b7"
   Hint: Show Empty Item
   Type: Checkbox
