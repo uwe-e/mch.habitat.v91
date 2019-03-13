@@ -16,13 +16,13 @@ This project assumes the following settings:
 
 | Setting             |  Value                                                                     | Change in <sup>1 *see below*</sup> |
 | ---                 | ---                                                                        | --- |
-| Source location     | C:\projects\Habitat\                                                       | `Habitat.Dev.config` |
-| Website location    | C:\inetpub\wwwroot\habitat.dev.local\                                      | `gulp-config.js`, `settings.ps1`, `xconnect-XP0.json`, `sitecore-XP0.json` |
-| Website URL         | [https://habitat.dev.local/](https://habitat.dev.local/)                   | `publishsettings.targets`, `settings.ps1`, `Habitat.Website.config` |
+| Source location     | D:\Work\MCH.CMS.Habitat\mch.habitat.v91\                                   | `Habitat.Dev.config` |
+| Website location    | D:\Work\Sitecore\mch.habitat.v91.dev.local\                                | `gulp-config.js`, `settings.ps1`, `xconnect-XP0.json`, `sitecore-XP0.json` |
+| Website URL         | [http://mch.habitat.v91.dev.local/](http://mch.habitat.v91.dev.local/)     | `publishsettings.targets`, `settings.ps1`, `Habitat.Website.config` |
 | SQL Server          | .                                                                          | `settings.ps1` |
 | SQL Server Admin    | sa                                                                         | `settings.ps1` |
 | SQL Server Password | 12345                                                                      | `settings.ps1` |
-| SOLR Location       | c:\solr\                                                                   | `settings.ps1` |
+| SOLR Location       | d:\solr\                                                                   | `settings.ps1` |
 | SOLR URL            | [https://localhost:8983/solr](https://localhost:8983/solr) (*Note https*)  | `settings.ps1` |
 | SOLR Windows Service Name   | Solr                                                               | `settings.ps1` |
 
@@ -65,25 +65,28 @@ If your Solr environment is not currently running with HTTPS, you can create an 
 
 ### 1. Installing Sitecore
 
-1. **Clone** the [Habitat repository](https://github.com/Sitecore/Habitat/) to your local file system.
+1. **Clone** the [Habitat repository](https://github.com/uwe-e/mch.habitat.v91/) to your local file system.
 1. Download the correct version of Sitecore from [dev.sitecore.net](https://dev.sitecore.net/Downloads.aspx) and place it in the `.\build\assets` folder.
     * Habitat will install by default on an *Sitecore XP Single*, i.e. a standalone version of Sitecore CMS including xConnect.
     * The currently supported version is defined in the `.\settings.ps1` file
     * The installation requires the following files:
         * Sitecore package: `.\build\assets\Sitecore X.X.X rev. XXXXXX (OnPrem)_single.scwdp.zip`
-        * Sitecore configuration: `.\build\assets\sitecore-XP0.json`
-        * Sitecore SOLR configuration: `.\build\assets\sitecore-solr.json`
         * xConnect package: `.\build\assets\Sitecore X.X.X rev. XXXXXX (OnPrem)_xp0xconnect.scwdp.zip`
-        * xConnect configuration: `.\build\assets\xconnect-XP0.json`
-        * xConnect SOLR configuration: `.\build\assets\xconnect-solr.json`
         * Identity Server package: `.\build\assets\Sitecore.IdentityServer X.X.X rev. XXXXXX (OnPrem)_identityserver.scwdp.zip`
-        * Identity Server configuration: `.\build\assets\IdentityServer.json`
-        * Certificate configuration: `.\build\assets\createcert.json`
-        * Prerequisites configuration: `.\build\assets\Prerequisites.json`
-        * Single Developer configuration: `.\build\assets\XP0-SingleDeveloper.json`
         * Sitecore license: `.\build\assets\license.xml`
-1. Are you using system settings other than the defaults specified at the top of this page?
-    * If yes, you need to update the files accordingly.
+    * The partly adapted json files
+        * sitecore-XP0.json
+        * sitecore-solr.json
+        * xconnect-XP0.json
+        * xconnect-solr.json
+        * IdentityServer.json
+        * createcert.json
+        * Prerequisites.json
+        * XP0-SingleDeveloper.json
+      
+      are stored in directory `.\build\AssetConfiguration`and have to copied into the `.\build\assets` directory. 
+        
+1. Are you using system settings other than the defaults specified at the top of this page?` directory.If yes, you need to update the files accordingly.
     * **Include or omit trailing slashes as per the default setting in each file!**
 1. Open an elevated privileges PowerShell command prompt (started with **Run as administrator**)
 1. Run **`.\install-xp0.ps1`**
@@ -108,6 +111,18 @@ If your Solr environment is not currently running with HTTPS, you can create an 
 
 1. [Rebuild](https://doc.sitecore.net/sitecore_experience_platform/setting_up_and_maintaining/search_and_indexing/indexing/rebuild_search_indexes) the *sitecore_master_index* and *sitecore_web_index* to deploy the updated schema to Solr and index the deployed content.
     * This is required for Habitat search-based features to work properly.
+## Additional packages to install
+This habitat project contains various attempts with the Sitecore Data Exchange Framework and Sitecore Forms. For that to work you should install the packages
+
+   * Bart Verdonck's [Sitecore Forms Extensions](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads/Sitecore%209.1)
+
+and
+
+   * Data Exchange Framework
+   * Sitecore Provider for Data Exchange Framework
+   * SQL Provider for Data Exchange Framework
+    
+from [Sitecore](https://dev.sitecore.net/Downloads/Data_Exchange_Framework/2x/Data_Exchange_Framework_210.aspx)
 
 ## Additional Information
 
