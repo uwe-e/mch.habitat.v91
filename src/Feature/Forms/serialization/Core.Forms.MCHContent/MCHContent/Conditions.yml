@@ -1,34 +1,32 @@
 ﻿---
-ID: "b87b0c4d-31b0-4327-abb1-6167e023ecdd"
+ID: "eb03e824-1b93-4799-b82d-d94c65b19723"
 Parent: "d1551774-4cae-4912-a0fd-d445b2deee3f"
 Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MCHCountries/Details
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MCHContent/Conditions
 DB: core
 SharedFields:
 - ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
   Hint: ControlDefinitions
   Type: TreelistEx
-  Value: |
-    {FF5E82DD-DE3F-4CFF-B7ED-CC57ACBF5031}
-    {362DF97E-0B79-477E-906A-F830DF8D882D}
+  Value: "{92111EF2-1162-446F-A36C-94BCDC86768D}"
 - ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
   Hint: ConfigurationItem
-  Value: "{D19B6A60-0E25-41B8-9FF8-9316AC03DA21}"
+  Value: "{39454FA5-ABD6-4074-A8F3-7F979226594B}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 350
 Languages:
 - Language: da
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Detaljer
+    Value: Betingelser
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181101T100300Z
+      Value: 20181101T100253Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -37,13 +35,13 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Details
+    Value: Bedingungen
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181101T100557Z
+      Value: 20181101T100550Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -54,7 +52,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160921T073838Z
+      Value: 20180228T110834Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -63,13 +61,13 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 詳細
+    Value: 条件
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181101T100831Z
+      Value: 20181101T100816Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -78,13 +76,13 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 详细信息
+    Value: 条件
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181101T101114Z
+      Value: 20181101T101103Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

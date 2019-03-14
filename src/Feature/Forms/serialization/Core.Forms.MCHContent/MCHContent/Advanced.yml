@@ -2,7 +2,7 @@
 ID: "bee19390-4adc-404e-bdb8-e72c6a0f438b"
 Parent: "d1551774-4cae-4912-a0fd-d445b2deee3f"
 Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MCHCountries/Advanced
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MCHContent/Advanced
 DB: core
 SharedFields:
 - ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"

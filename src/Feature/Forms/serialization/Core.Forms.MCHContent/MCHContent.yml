@@ -1,26 +1,15 @@
 ﻿---
-ID: "eb03e824-1b93-4799-b82d-d94c65b19723"
-Parent: "d1551774-4cae-4912-a0fd-d445b2deee3f"
-Template: "f698fe6d-35ca-4783-b36c-34928f3a23f2"
-Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MCHCountries/Conditions
+ID: "d1551774-4cae-4912-a0fd-d445b2deee3f"
+Parent: "0e723521-4594-4785-aece-ceb7bb2fb4e0"
+Template: "72e58860-ac29-47e1-a1c5-8f9e492db999"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/MCHContent
 DB: core
-SharedFields:
-- ID: "00fdab55-3a4a-4376-b786-7ea959bb0057"
-  Hint: ControlDefinitions
-  Type: TreelistEx
-  Value: "{92111EF2-1162-446F-A36C-94BCDC86768D}"
-- ID: "91194d47-8df3-43e3-8310-67b718ce2c93"
-  Hint: ConfigurationItem
-  Value: "{39454FA5-ABD6-4074-A8F3-7F979226594B}"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 350
 Languages:
 - Language: da
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Betingelser
+    Value: RulleListe
   Versions:
   - Version: 1
     Fields:
@@ -35,13 +24,13 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Bedingungen
+    Value: DropDownListe
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181101T100550Z
+      Value: 20181101T100549Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -52,7 +41,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180228T110834Z
+      Value: 20161017T123230Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -61,13 +50,13 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 条件
+    Value: ドロップ ダウン リスト
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181101T100816Z
+      Value: 20181101T100815Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -76,7 +65,7 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 条件
+    Value: 下拉列表
   Versions:
   - Version: 1
     Fields:
